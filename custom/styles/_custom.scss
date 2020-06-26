@@ -1,0 +1,78 @@
+// custom.scss
+// 
+// THIS IS A TEMPLATE!
+// 
+// Copy this file to custom/style, rather than editing it in place.
+// node-sass will automatically resolve the file in custom first.
+// This file is included as a placeholder so the import in style.scss does not break.
+// 
+// 
+// After copying, put your custom scss in this file, or other sibling folders in custom/style directory.
+// This file is imported last in the core styles stack, so style here will take precendence.
+
+// 
+// // Write your styles directly here
+// h1 {
+//   color: green;
+// }
+// 
+// 
+// // or import them from a nearby file
+// @import "more-custom-stuff";
+
+body{
+    font-family: system-ui, Helvetica, "Open Sans", sans-serif;
+    background-image: url("/assets/images/Trinity-College-Library.jpg");
+    background-size: cover;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: system-ui, Helvetica, "Open Sans", sans-serif;
+    margin-top: 45px;
+    margin-bottom: 20px;
+}
+
+.g-body .playlist-navigation img, .g-body .g-main-content img {
+    max-width: calc(100vw - 80px);
+    border: 0px solid $gray-60;
+    padding: 10px;
+    display: block;
+    margin: 20px auto;
+}
+
+
+.button {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: system-ui, Helvetica, sans-serif;
+    background-color: $white ;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+    display: inline-block;
+    padding: 4px 8px 6px 8px;
+    cursor: pointer;
+    -webkit-font-smoothing: antialiased;
+}
+
+button.btn-homepage {
+    margin: 10px 0 0 0;   
+    background-color:$white ;
+    border-radius: 3px;
+    -webkit-box-shadow: 2.5px 2.5px 0px -1px #0068b3;
+    -moz-box-shadow: 2.5px 2.5px 0px -1px #0068b3;
+    box-shadow: 2.5px 2.5px 0px -1px #0068b3;
+    padding: 5px 12px;
+}
+
+.button.btn-cat {
+    background: $white ;
+    border-radius: 3px;
+    margin: 4px 0 0 0;
+    
+}
+
+
+.children-container {
+    border-radius: 3px;
+}
