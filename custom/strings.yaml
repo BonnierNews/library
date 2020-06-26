@@ -28,7 +28,7 @@ footer:
   helpText: Questions? Contact your organization's administrators.
   defaultEmail: user@bonniernews.se
   buttons:
-    edit: Editera dokument
+    edit: Redigera dokument
     move: Flytta dokument
     create: Skapa nytt dokument
     viewFolder: Visa katalog
